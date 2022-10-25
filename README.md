@@ -14,6 +14,8 @@ and run with:
 cargo run
 ```
 
+After compiling, the binary is in `target/debug` (normal compile), or `target/release` (compiled with `cargo build --release`).
+
 You need to give it an input program directly or via a file. If non is given, the interpreter reads the program from the standard input.
 
 ```bash
@@ -27,4 +29,4 @@ brainfuck "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++
 brainfuck < program.b
 ```
 
-A few sample programs are in `/programs`. These are taken from [brainfuck.org](brainfuck.org).
+A few sample programs are in `programs/`. These are taken from [brainfuck.org](brainfuck.org).
