@@ -8,3 +8,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "*", features = ["derive"] }
+
+[profile.release]
+lto = true
